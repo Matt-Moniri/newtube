@@ -1,6 +1,6 @@
 # NewTube
 
-## Introduction 
+## Introduction
 
 OTT – Over-the-top media is no longer the future of entertainment but is now the reality.​
 
@@ -13,7 +13,6 @@ An “over-the-top” media service is an online content provider that offers st
 Any application or service that provides a product over the internet while bypassing traditional media services is an OTT application.​
 
 Popular OTT applications for video streaming are Netflix, Amazon Video, YouTube, HBO, etc.​
-
 
 ## ViewTube - Phase1
 
@@ -35,7 +34,7 @@ In the first phase, to stay ahead in the heavily competitive market, the Ezone P
 
 React applications can be designed and styled using CSS quickly by incorporating styled-component package.
 
-## Problem Statement 
+## Problem Statement
 
 You as a frontend developer have been assigned the responsibility to quickly get the first version of ViewTube ready.​
 
@@ -43,7 +42,7 @@ In the first version, the landing view of the application should be rendered wit
 
 The application should have a header with a search box, links with icons and tooltips, and a collapsible sidebar with navigation links with icons.​
 
-## ViewTube UI Component Design Requirements 
+## ViewTube UI Component Design Requirements
 
 ### Card Component  
 
@@ -54,8 +53,8 @@ The application should have a header with a search box, links with icons and too
 ### Chip Component  
 
 1. The Chip component is defined in file `Chip. jsx` that uses the ChipWrapper styled component.  
-2. Create styled component ChipWrapper(`<button>`) in file `Chip.jsx` using styled-components package.   
-3. Add style attributes like color, border, background color, font-family, padding, border-radius to the ChipWrapper component to render the Chip component as a chip to render category items.   
+2. Create styled component ChipWrapper(`<button>`) in file `Chip.jsx` using styled-components package.
+3. Add style attributes like color, border, background color, font-family, padding, border-radius to the ChipWrapper component to render the Chip component as a chip to render category items.
 
 ### Icon Component  
 
@@ -80,11 +79,11 @@ The application should have a header with a search box, links with icons and too
 2. Run the command `npm install` to install the dependencies.    
 3. Open the boilerplate code in VSCode to develop the assignment solution.    
 4. The boilerplate consists of the solution code for the ViewTube app.    
-5. The boilerplate also contains the `videoData.json` file located inside the data 4older.    
-6. The video data is by default imported into the component, and you can use those data 4o directly render in card data.    
+5. The boilerplate also contains the `videoData.json` file located inside the data folder.    
+6. The video data is by default imported into the component, and you can use those data to directly render in card data.    
 7. The above instructed ViewTube components will be created into component files already in the `component` folder.     
-8. All existing components declared in the boilerplate should be implemented 4sing styled-component package of React.   
-9. While defining styled-components, start from the outermost component and 4roceed towards the inner comments.  
-10. Comment out the components not defined in the rendering logic to test the 4utput at every stage of design.  
+8. All existing components declared in the boilerplate should be implemented using styled-component package of React.   
+9. While defining styled-components, start from the outermost component and 4roceed towards the inner components.  
+10. Comment out the components not defined in the rendering logic to test the output at every stage of design.  
 11. Zip the solution code with the name same as the assignment name.    
 12. Upload the zipped solution for submission. 

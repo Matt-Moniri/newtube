@@ -8,20 +8,16 @@ import Card from "../component/Card";
 export default function Videos(props) {
 
     // Need to write component code for Categories using styled component by replacing `null` value
-    const Categories = ()=> <div></div>
-
+    const Categories = null
 
     // Need to write component code for VideoList using styled component by replacing `null` value
-    const VideoList = ()=> <div></div>
-
+    const VideoList = null
 
     // Need to write component code for VideoContent using styled component by replacing `null` value
-    const VideoContent = ()=> <div></div>
-
+    const VideoContent = null
 
     // Need to write component code for Span using styled component by replacing `null` value
-    const Span = ()=> <div></div>
-
+    const Span = null
     
     return (
         <div>

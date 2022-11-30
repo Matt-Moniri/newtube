@@ -5,7 +5,6 @@ import Videos from "./views/Playlist";
 import styled, { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./theme/GlobalStyles";
 import { darkTheme, lightTheme } from "./theme/themes";
-import Card from "./component/Card";
 // 2: Create a cotainer
 const Container = styled.div`
   margin: 5px auto 5px auto;
@@ -21,12 +20,12 @@ function App() {
 
   return (
     <>
-      <Card></Card>
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
         <Container>
           <Header toggleTheme={themeToggler} />
-          <Videos />
+          {/* 
+          <Videos /> */}
         </Container>
       </ThemeProvider>
     </>
