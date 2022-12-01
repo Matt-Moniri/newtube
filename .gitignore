@@ -10,7 +10,7 @@
 
 # production
 /build
-temp
+personal
 
 # misc
 .DS_Store
