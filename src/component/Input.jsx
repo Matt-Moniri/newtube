@@ -1,16 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 // Need to write component code for StyledInput using styled component by replacing `null` value
-export const StyledInput = styled.input``;
+export const StyledInput = styled.input`
+  font-size: 25px;
+  width: 9rem;
+  border-radius: 10px;
+  border: 0;
+`;
 
 const Input = ({ type, placeholder, onSubmit, children }) => {
   return (
-    <StyledInput
-      onSubmit={onSubmit}
-      placeholder="ppll"
-      aa={"aa" /*placeholder={placeholder}*/}
-      type={type}
-    />
+    <StyledInput onSubmit={onSubmit} placeholder={placeholder} type={type} />
   );
 };
 
