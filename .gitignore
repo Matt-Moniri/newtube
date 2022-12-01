@@ -12,6 +12,7 @@
 /build
 personal
 personal.*
+personal.fil
 
 # misc
 .DS_Store
