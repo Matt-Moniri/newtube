@@ -6,6 +6,7 @@ export const StyledInput = styled.input`
   width: 9rem;
   border-radius: 10px;
   border: 0;
+  padding: 0.2rem 1rem 0.2rem 1rem;
 `;
 
 const Input = ({ type, placeholder, onSubmit, children }) => {

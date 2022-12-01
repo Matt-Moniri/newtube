@@ -42,7 +42,7 @@ export default function Header(props) {
     align-content: center; /*the lines inside*/
     gap: 10px; /*min space between items not border*/
     bborder-top: 1px solid;
-    background-color: grey;
+    background-color: ${(props) => props.theme.colors.bg3};
     padding: 5px;
   `;
 

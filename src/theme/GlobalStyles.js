@@ -1,4 +1,4 @@
-import { createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -7,6 +7,9 @@ export const GlobalStyles = createGlobalStyle`
     font-family: ${({ theme }) => theme.font};
     transition: all 0.50s linear;
   }
+  body::-webkit-scrollbar {
+  width: 0;               /* width of the entire scrollbar */
+}
 
   a {
     color: ${({ theme }) => theme.colors.link.text};
