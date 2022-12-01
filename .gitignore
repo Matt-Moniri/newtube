@@ -11,6 +11,7 @@
 # production
 /build
 personal
+personal.*
 
 # misc
 .DS_Store
