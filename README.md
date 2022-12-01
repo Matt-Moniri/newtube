@@ -2,7 +2,7 @@
 
 ## Introduction
 
-OTT – Over-the-top media is no longer the future of entertainment but is now the reality.​
+OTT – Over-the-top media is no longer the future of entertainment but is now the reality.-
 
 With over 50% of North Americans maintaining Netflix subscriptions, it is evident that the consumers love OTT content. It is the most popular form of entertainment today across all age groups. ​
 
