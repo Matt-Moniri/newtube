@@ -44,46 +44,46 @@ The application should have a header with a search box, links with icons and too
 
 ## ViewTube UI Component Design Requirements
 
-### Card Component  
+### Card Component
 
-1. The Card component is defined in file `Card. jsx` and it uses styled-components.  
-2. Create styled components StyledCard(`<div>`), VideoImage(`<img>`), CardSubtitle(`<h5>`), CardTitle(`<h4>`) in the file `Card.jsx` using styled-component package to complete the Card component design.  
-3. Add various style attributes like background color, font-family, font-weight to the styled components to add styles to the Card component.  
+1. The Card component is defined in file `Card. jsx` and it uses styled-components.
+2. Create styled components StyledCard(`<div>`), VideoImage(`<img>`), CardSubtitle(`<h5>`), CardTitle(`<h4>`) in the file `Card.jsx` using styled-component package to complete the Card component design.
+3. Add various style attributes like background color, font-family, font-weight to the styled components to add styles to the Card component.
 
-### Chip Component  
+### Chip Component
 
-1. The Chip component is defined in file `Chip. jsx` that uses the ChipWrapper styled component.  
+1. The Chip component is defined in file `Chip. jsx` that uses the ChipWrapper styled component.
 2. Create styled component ChipWrapper(`<button>`) in file `Chip.jsx` using styled-components package.
 3. Add style attributes like color, border, background color, font-family, padding, border-radius to the ChipWrapper component to render the Chip component as a chip to render category items.
 
-### Icon Component  
+### Icon Component
 
-1. The file `Icon.jsx` contains Icon component that uses the StyledIcon component to style the Icon.   
-2. Create component StyledIcon(`<i>`) in file `Icon.jsx` using styled-components package   
-3. Add style attributes like color, font size, padding-left to style the Icon component.  
-4. Try to use `class name` props in the StyledIcon component using the `attrs` property of styled-component which will help in passing the value of icon name provided by props. 
+1. The file `Icon.jsx` contains Icon component that uses the StyledIcon component to style the Icon.
+2. Create component StyledIcon(`<i>`) in file `Icon.jsx` using styled-components package
+3. Add style attributes like color, font size, padding-left to style the Icon component.
+4. Try to use `class name` props in the StyledIcon component using the `attrs` property of styled-component which will help in passing the value of icon name provided by props.
 
-### Input Component  
+### Input Component
 
-1. The file `Input.jsx` contains definition of Input component that uses StyledInput component for styling.  
+1. The file `Input.jsx` contains definition of Input component that uses StyledInput component for styling.
 
-2. Create component StyledInput(`<input>`) in the file `Input.jsx` using styled-component package. 
+2. Create component StyledInput(`<input>`) in the file `Input.jsx` using styled-component package.
 
-3. Add style attributes like background-color, height, font-size, width, border to the styled component. 
+3. Add style attributes like background-color, height, font-size, width, border to the styled component.
 
-4. Try to add placeholder to StyledInput component using `selector` property of styled-component. 
+4. Try to add placeholder to StyledInput component using `selector` property of styled-component.
 
-## Instructions   
+## Instructions
 
-1. Download and unzip the boilerplate code.    
-2. Run the command `npm install` to install the dependencies.    
-3. Open the boilerplate code in VSCode to develop the assignment solution.    
-4. The boilerplate consists of the solution code for the ViewTube app.    
-5. The boilerplate also contains the `videoData.json` file located inside the data folder.    
-6. The video data is by default imported into the component, and you can use those data to directly render in card data.    
-7. The above instructed ViewTube components will be created into component files already in the `component` folder.     
-8. All existing components declared in the boilerplate should be implemented using styled-component package of React.   
-9. While defining styled-components, start from the outermost component and 4roceed towards the inner components.  
-10. Comment out the components not defined in the rendering logic to test the output at every stage of design.  
-11. Zip the solution code with the name same as the assignment name.    
-12. Upload the zipped solution for submission. 
+1. Download and unzip the boilerplate code.
+2. Run the command `npm install` to install the dependencies.
+3. Open the boilerplate code in VSCode to develop the assignment solution.
+4. The boilerplate consists of the solution code for the ViewTube app.
+5. The boilerplate also contains the `videoData.json` file located inside the data folder.
+6. The video data is by default imported into the component, and you can use those data to directly render in card data.
+7. The above instructed ViewTube components will be created into component files already in the `component` folder.
+8. All existing components declared in the boilerplate should be implemented using styled-component package of React.
+9. While defining styled-components, start from the outermost component and 4roceed towards the inner components.
+10. Comment out the components not defined in the rendering logic to test the output at every stage of design.
+11. Zip the solution code with the name same as the assignment name.
+12. Upload the zipped solution for submission.
