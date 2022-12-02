@@ -80,12 +80,18 @@ export default function Header(props) {
     bbackground-color: yellow;
   `;
 
+  const StyledIcon = styled.div`
+    ccolor: ${(props) => props.theme.colors.primary};
+    color: blue;
+  `;
+
   return (
     <Container>
       <Wrapper>
+        <Menu>
+          <LogoTitle>ViewTube</LogoTitle>
+        </Menu>
         <SearchBar>
-          <Icon className="fa fa-search" />
-          <Icon className="fa fa-microphone" />
           <StyledInput className={"inputWithIcon"}>
             <Input
               type="text"
@@ -95,10 +101,9 @@ export default function Header(props) {
               }}
             />
           </StyledInput>
+          <Icon className="fa fa-search" />
+          <Icon className="fa fa-microphone" />
         </SearchBar>
-        <Menu>
-          <LogoTitle></LogoTitle>
-        </Menu>
         <QuickIcon>
           <Icon onClick={props.toggleTheme} className="fa fa-adjust" />
           <Icon className="fa fa-bell" />

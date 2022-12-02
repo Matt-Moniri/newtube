@@ -7,7 +7,7 @@ import { ChipWrapper } from "../component/Chip";
 describe("ViewTube App", () => {
   beforeEach(() => render(<App />));
   afterEach(() => cleanup());
-  
+
   test("should have ChipWrapper component", function () {
     expect(ChipWrapper).toBeTruthy();
   });
@@ -45,5 +45,4 @@ describe("ViewTube App", () => {
       ).borderRadius
     ).toBeTruthy();
   });
-
 });

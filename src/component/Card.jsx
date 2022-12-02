@@ -4,21 +4,24 @@ import styled from "styled-components";
 export const StyledCard = styled.div`
   margin-bottom: 15px;
   padding: 10px;
+  width: 260px;
+  background-color: brown;
+  color: white;
 `;
 // Need to write component code for VideoImage using styled component by replacing `null` value
-export const VideoImage = styled.div`
+export const VideoImage = styled.img`
   height: 180px;
   background: url(${(props) => props.src});
   background-size: contain;
 `;
 
 // Need to write component code for CardSubtitle using styled component by replacing `null` value
-export const CardSubtitle = styled.p`
+export const CardSubtitle = styled.h5`
   margin: 0;
 `;
 
 // Need to write component code for CardTitle using styled component by replacing `null` value
-export const CardTitle = styled.h3`
+export const CardTitle = styled.h4`
   margin: 0;
 `;
 

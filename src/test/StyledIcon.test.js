@@ -16,7 +16,11 @@ describe("ViewTube App", () => {
     const component = <StyledIcon></StyledIcon>;
 
     const tree = renderer.create(component).toJSON();
-    expect(tree).toMatchInlineSnapshot();
+    expect(tree).toMatchInlineSnapshot(`
+      <i
+        className="sc-bdvvtL cYNBfy"
+      />
+    `);
 
     expect(tree.type).toBe("i");
   });
@@ -25,7 +29,11 @@ describe("ViewTube App", () => {
     const component = <StyledIcon></StyledIcon>;
 
     const tree = renderer.create(component).toJSON();
-    expect(tree).toMatchInlineSnapshot();
+    expect(tree).toMatchInlineSnapshot(`
+      <i
+        className="sc-bdvvtL cYNBfy"
+      />
+    `);
 
     expect(
       window.getComputedStyle(

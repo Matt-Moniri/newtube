@@ -24,7 +24,7 @@ function App() {
         <GlobalStyles />
         <Container>
           <Header toggleTheme={themeToggler} />
-          <Videos theme={theme === "light" ? lightTheme : darkTheme} />
+          <Videos />
         </Container>
       </ThemeProvider>
     </>

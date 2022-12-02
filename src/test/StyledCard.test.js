@@ -16,7 +16,11 @@ describe("ViewTube App", () => {
     const component = <StyledCard></StyledCard>;
 
     const tree = renderer.create(component).toJSON();
-    expect(tree).toMatchInlineSnapshot();
+    expect(tree).toMatchInlineSnapshot(`
+      <div
+        className="sc-hKwDye igulOq"
+      />
+    `);
 
     expect(tree.type).toBe("div");
   });
@@ -25,7 +29,11 @@ describe("ViewTube App", () => {
     const component = <StyledCard></StyledCard>;
 
     const tree = renderer.create(component).toJSON();
-    expect(tree).toMatchInlineSnapshot();
+    expect(tree).toMatchInlineSnapshot(`
+      <div
+        className="sc-hKwDye igulOq"
+      />
+    `);
 
     expect(
       window.getComputedStyle(
@@ -45,5 +53,4 @@ describe("ViewTube App", () => {
       ).color
     ).toBeTruthy();
   });
-
 });
